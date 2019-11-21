@@ -9,4 +9,4 @@ import "../scss/index.scss";
 
 /* img import */
 
-import img from "../img/smoke.png";
+// import img from "../img/smoke.png";

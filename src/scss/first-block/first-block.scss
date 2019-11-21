@@ -1,0 +1,43 @@
+.first-block {
+  background-image: url("../img/1_bg.png");
+  background-size: 1920px 941px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 941px;
+
+  &__header {
+    text-transform: uppercase;
+  }
+
+  &__list {
+    display: inline-block;
+  }
+
+  &__header-logo {
+    font-size: 1.8em;
+    font-weight: 800;
+  }
+
+  &__list-link {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  &__header-phone {
+    font-size: 1.6em;
+    font-weight: 700;
+  }
+
+  &__order-phone {
+    font-size: 1.1em;
+    font-weight: 800;
+    border: 2px solid #fff;
+    display: inline-block;
+    height: 34px;
+    width: 165px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 19px;
+    letter-spacing: 0.6px;
+  }
+}

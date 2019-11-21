@@ -7,6 +7,8 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 ul,
@@ -15,3 +17,16 @@ a {
   text-decoration: none;
   list-style-type: none;
 }
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.inner-wrapper {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "first-block/first-block";
