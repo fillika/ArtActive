@@ -7,15 +7,33 @@
 
   &__header {
     text-transform: uppercase;
+    height: 40px;
+    padding-top: 60px;
+    box-sizing: content-box;
+    letter-spacing: 0.6px;
+  }
+
+  &__nav {
+    padding-top: 5px;
+  }
+
+  &__nav,
+  &__list-item {
+    display: inline-block;
   }
 
   &__list {
-    display: inline-block;
+    margin-left: 135px;
+  }
+
+  &__list-item {
+    margin-right: 55px;
   }
 
   &__header-logo {
     font-size: 1.8em;
     font-weight: 800;
+    float: left;
   }
 
   &__list-link {
@@ -26,6 +44,7 @@
   &__header-phone {
     font-size: 1.6em;
     font-weight: 700;
+    margin-right: 35px;
   }
 
   &__order-phone {
@@ -36,8 +55,14 @@
     height: 34px;
     width: 165px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 7px;
     border-radius: 19px;
-    letter-spacing: 0.6px;
+    float: right;
+    transition: 0.4s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #7935b2;
+    }
   }
 }
