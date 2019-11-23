@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   height: 94.1rem;
   letter-spacing: 0.6px;
+  position: relative;
 
   &__header {
     text-transform: uppercase;
@@ -95,9 +96,6 @@
   }
 
   &__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 9.5rem;
   }
 
@@ -106,12 +104,13 @@
   }
 
   &__content-img {
-    width: 50%;
     background-image: url("../img/main-img.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:  64.7rem 54.8rem;
     background-position: right;
-    height: 60rem;
+    height: 64.7rem;
+    width: 54.8rem;
+    top: -4rem;
   }
 
   &__order-box {
@@ -135,5 +134,5 @@
   transform: translateX(-50%);
   background-image: url("../img/mouse-down.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }

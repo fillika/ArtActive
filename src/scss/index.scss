@@ -3,7 +3,6 @@
 @import "fonts";
 @import "blocks/order-btn";
 
-
 * {
   padding: 0;
   margin: 0;
@@ -33,6 +32,19 @@ a {
   max-width: 117rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.main-content {
+  position: relative;
+
+  &-one {
+    position: absolute;
+  }
+
+  &-two {
+    width: 51.3rem;
+    margin: 0 0 0 auto;
+  }
 }
 
 @import "first-block/first-block";
