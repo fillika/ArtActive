@@ -2,6 +2,23 @@
   padding: 11rem 0;
   position: relative;
 
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    width: 2px;
+    height: 83px;
+    background-color: #7935b2;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    left: calc(50% + 11px);
+    bottom: -60px;
+  }
 
   &__text {
     color: #5e606a;
@@ -11,7 +28,7 @@
   }
 
   &__subtitle {
-    margin: 5.7rem 0 4.5rem
+    margin: 5.7rem 0 4.5rem;
   }
 
   &__content-img {
