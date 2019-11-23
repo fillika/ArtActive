@@ -99,6 +99,15 @@ img {
   position: relative;
 }
 
+//.number {
+//  position: absolute;
+//  font-size: 31.1rem;
+//  top: 0;
+//  left: 0;
+//  text-shadow: 0 0 10px #5e606a;
+//}
+
 @import "first-block/first-block";
 @import "second-block/second-block";
 @import "third/third";
+@import "four-block/four-block";
