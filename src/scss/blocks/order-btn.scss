@@ -9,6 +9,7 @@
   display: inline-block;
   font-weight: bold;
   transition: box-shadow 0.3s ease-in-out;
+  z-index: 1;
 
   &_float_r {
     float: right;
