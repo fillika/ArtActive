@@ -4,11 +4,11 @@
 
   &__flex-box {
     display: flex;
-
   }
 
   &__content-title {
     margin: 0;
+    padding-right: 5.7rem;
   }
 
   &__list {
@@ -19,5 +19,25 @@
       line-height: 1.7em;
       list-style-type: square;
     }
+  }
+
+  &__slider {
+    width: 50%;
+    height: 47rem;
+
+    img {
+      border-radius: 22px;
+    }
+  }
+
+  &__prevArrow {
+    bottom: 0;
+    width: 8rem;
+  }
+
+  &__nextArrow {
+    bottom: 0;
+    left: 9rem;
+    width: 8rem;
   }
 }
