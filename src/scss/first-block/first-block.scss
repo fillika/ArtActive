@@ -1,20 +1,20 @@
 .first-block {
   background-image: url("../img/1_bg.png");
-  background-size: 1920px 941px;
+  background-size: 192rem 94.1rem;
   background-position: center;
   background-repeat: no-repeat;
-  height: 941px;
+  height: 94.1rem;
 
   &__header {
     text-transform: uppercase;
-    height: 40px;
-    padding-top: 60px;
+    height: 4rem;
+    padding-top: 6rem;
     box-sizing: content-box;
     letter-spacing: 0.6px;
   }
 
   &__nav {
-    padding-top: 5px;
+    padding-top: 0.5rem;
   }
 
   &__nav,
@@ -23,11 +23,11 @@
   }
 
   &__list {
-    margin-left: 135px;
+    margin-left: 13.5rem;
   }
 
   &__list-item {
-    margin-right: 55px;
+    margin-right: 5.5rem;
   }
 
   &__header-logo {
@@ -52,10 +52,10 @@
     font-weight: 800;
     border: 2px solid #fff;
     display: inline-block;
-    height: 34px;
-    width: 165px;
+    height: 3.4rem;
+    width: 16.5rem;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 0.7rem;
     border-radius: 19px;
     float: right;
     transition: 0.4s ease;
@@ -64,5 +64,25 @@
       background-color: #fff;
       color: #7935b2;
     }
+  }
+
+  &__title-h1 {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content-img {
+    width: 50%;
+    background-image: url("../img/main-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 60rem;
   }
 }

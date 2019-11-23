@@ -6,9 +6,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
+}
+
+body,
+html {
+  font-size: calc(6px + 100vw / 480);
 }
 
 ul,
@@ -19,14 +23,14 @@ a {
 }
 
 .wrapper {
-  max-width: 1920px;
+  max-width: 192rem;
   margin: 0 auto;
 }
 
 .inner-wrapper {
-  max-width: 1170px;
+  max-width: 117rem;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 
 @import "first-block/first-block";
