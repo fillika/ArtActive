@@ -1,0 +1,31 @@
+.review-block {
+  padding: 11rem 0;
+  position: relative;
+
+  &__img-box {
+    width: 20rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__slider {
+    margin-top: 6rem;
+  }
+
+  &__slider-item {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 12px 0 #cbcbcb;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    color: #5e606a;
+
+    &_fw_bold {
+      font-weight: bold;
+    }
+  }
+}

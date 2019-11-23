@@ -16,3 +16,4 @@ import img2 from "../img/slider_3.jpg";
 import img3 from "../img/slider_4.jpg";
 import img4 from "../img/arr-left.png";
 import img5 from "../img/arr-right.png";
+import maksim from "../img/maksim.png";
