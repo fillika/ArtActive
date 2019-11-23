@@ -57,7 +57,34 @@ a {
   color: #383d52;
   font-size: 3.2rem;
   font-weight: 700;
+
+  &_margins {
+    margin: 5.7rem 0 4.5rem;
+  }
+}
+
+.questions {
+  width: 100%;
+  border-radius: 10px;
+  height: 12rem;
+  padding: 4rem 3.5rem;
+  background-color: #7935b2;
+
+  &__text {
+    display: inline-block;
+  }
+
+  &__any {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  &__order-consult {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
 }
 
 @import "first-block/first-block";
 @import "second-block/second-block";
+@import "third/third";

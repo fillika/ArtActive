@@ -1,0 +1,23 @@
+.third-block {
+  padding: 11rem 0;
+  position: relative;
+
+  &__flex-box {
+    display: flex;
+
+  }
+
+  &__content-title {
+    margin: 0;
+  }
+
+  &__list {
+    margin: 0 0 7rem 2rem;
+    &-item {
+      color: #5e606a;
+      font-size: 1.4rem;
+      line-height: 1.7em;
+      list-style-type: square;
+    }
+  }
+}
