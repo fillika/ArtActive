@@ -4,13 +4,13 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 94.1rem;
+  letter-spacing: 0.6px;
 
   &__header {
     text-transform: uppercase;
     height: 4rem;
     padding-top: 6rem;
     box-sizing: content-box;
-    letter-spacing: 0.6px;
   }
 
   &__nav {
@@ -69,12 +69,25 @@
   &__title-h1 {
     font-size: 6rem;
     font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.25em;
+  }
+
+  &__p {
+    font-size: 3rem;
+    width: 43.5rem;
+    margin: 7rem 0 9rem;
   }
 
   &__content {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 9.5rem;
+  }
+
+  &__content-title {
+    width: 50%;
   }
 
   &__content-img {
@@ -84,5 +97,16 @@
     background-size: cover;
     background-position: right;
     height: 60rem;
+  }
+
+  &__order-box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__order-text {
+    font-size: 1.4rem;
+    width: 50%;
+    margin-left: 2rem;
   }
 }
