@@ -1,6 +1,7 @@
 .second-block {
   padding: 11rem 0;
   position: relative;
+  z-index: 1;
 
   &::before,
   &::after {

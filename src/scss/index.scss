@@ -95,6 +95,10 @@ img {
   cursor: pointer;
 }
 
+.slider-wrapper{
+  position: relative;
+}
+
 @import "first-block/first-block";
 @import "second-block/second-block";
 @import "third/third";
