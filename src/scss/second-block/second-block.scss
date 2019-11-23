@@ -1,14 +1,24 @@
 .second-block {
-    padding: 11rem 0;
+  padding: 11rem 0;
+  position: relative;
 
-    &__text {
-        color: #5e606a;
-        font-size: 1.4rem;
-        margin-bottom: 3.5rem;
-        line-height: 1.7em;
-    }
 
-    &__subtitle {
-        margin: 8rem 0 7rem;
-    }
+  &__text {
+    color: #5e606a;
+    font-size: 1.4rem;
+    margin-bottom: 2.8rem;
+    line-height: 1.7em;
+  }
+
+  &__subtitle {
+    margin: 5.7rem 0 4.5rem
+  }
+
+  &__content-img {
+    background-image: url(../img/all-moving.png);
+    background-size: 53.7rem 48.3rem;
+    width: 58rem;
+    height: 57.4rem;
+    background-repeat: no-repeat;
+  }
 }
