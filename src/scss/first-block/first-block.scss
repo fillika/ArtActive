@@ -39,6 +39,21 @@
   &__list-link {
     font-size: 1.3em;
     font-weight: 600;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 1px;
+      background-color: #fff;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
   }
 
   &__header-phone {
@@ -109,4 +124,16 @@
     width: 50%;
     margin-left: 2rem;
   }
+}
+
+.mouse-down {
+  position: absolute;
+  width: 2.2rem;
+  height: 3.5rem;
+  left: 50%;
+  bottom: 5rem;
+  transform: translateX(-50%);
+  background-image: url("../img/mouse-down.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
