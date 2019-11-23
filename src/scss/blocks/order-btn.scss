@@ -1,16 +1,20 @@
 .order-btn {
-    font-size: 1.5rem;
-    height: 4rem;
-    padding: 0.9rem 3.8rem;
-    background-color: #fb0275;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 30px;
-    display: inline-block;
-    font-weight: bold;
+  font-size: 1.5rem;
+  height: 4rem;
+  padding: 0.9rem 3.8rem;
+  background-color: #fb0275;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease-in-out;
 
+  &_float_r {
+    float: right;
+  }
 
-    &_float_r {
-        float: right;
-    }
+  &:hover {
+    box-shadow: 0px 0px 8px 3px #e59bbe;
+  }
 }
