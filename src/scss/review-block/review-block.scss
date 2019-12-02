@@ -12,12 +12,25 @@
 
   &__slider {
     margin-top: 6rem;
-  }
+    position: relative;
 
-  &__slider-item {
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 12px 0 #cbcbcb;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      top: 0;
+      box-shadow: 0 0px 20px 20px #fff;
+    }
+
+    &:before {
+      left: 0;
+      z-index: 5;
+    }
+
+    &:after {
+      right: 0;
+      z-index: 5;
+    }
   }
 
   &__text {
@@ -28,4 +41,8 @@
       font-weight: bold;
     }
   }
+}
+
+.swiper-slide {
+  width: 80%;
 }

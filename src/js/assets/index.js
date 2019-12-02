@@ -18,12 +18,10 @@ $(document).ready(function() {
     asNavFor: ".third-block__slider"
   });
 
-  $(".review-block__slider").slick({
-    centerMode: true,
-    prevArrow:
-        "<div class='review-block__prevArrow'> <img src='../../img/arr-left.png'></div>",
-    nextArrow:
-        "<div class='review-block__nextArrow'> <img src='../../img/arr-right.png'></div>",
-    centerPadding: '6rem'
-  });
+  const swiper = new Swiper('.swiper-container', {
+    spaceBetween: 20,
+    slidesPerView: 'auto',
+    loop: true,
+    centeredSlides: true
+  })
 });
